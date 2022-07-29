@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+  }
+  
+  .container {
+    height: 100vh;
+    font-family: "Poppins", serif;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+  
+  .navbar {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 0 80px;
+  }
+  
+  .logo {
+    height: 42px;
+  }
+  
+  .line {
+    display: block;
+    height: 70%;
+    width: 2px;
+    background-color: #fff;
+    margin-left: 100px;
+  }
+  
+  .grow-list {
+    flex-grow: 1;
+    margin-left: 50px;
+  }
+  
+  .list {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .list .list-item:first-child::after {
+    content: ">";
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    transform: rotate(90deg);
+  }
+  
+  .list-item {
+    cursor: pointer;
+  }
+  
+  .button-small {
+    font-size: 16px;
+    padding: 10px 30px;
+    background-color: #ba0cc5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .hero-heading {
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Poppins", serif;
+    color: #fff;
+    padding: 0 300px;
+    line-height: 1.2;
+  }
+  
+  .hero-description {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .button-large {
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #ba0cc5;
+    padding: 15px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .button-small:hover,
+  .button-large:hover {
+    background-color: #b90cc5cd;
+  }
+  
