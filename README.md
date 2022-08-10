@@ -24,7 +24,7 @@
 
 ---
 
-### This Project too me around **2 hours** to complete.
+### This Project took me around **2 hours** to complete.
 
 ---
 
